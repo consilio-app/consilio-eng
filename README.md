@@ -1,7 +1,7 @@
 # Consilio — AI-Powered Prediction Markets
 
 Prediction market trading interface powered by Polymarket API with built-in AI Agent.
-
+CA 85TyF6eQynSz2QmB4sz15LxpwDP1S7FnJPd1mg1Cpump
 ## Features
 
 - 📊 **Live Markets** — Real-time data from Polymarket API
