@@ -505,7 +505,7 @@ const MobileDrawer=({open,onClose,wallet,onConnect,onAI})=>{
         <a href="https://github.com/consilio-app" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${BD}`,color:TD,textDecoration:"none",fontSize:13,fontWeight:500}}>
           <GHIcon/> GitHub
         </a>
-        <a href="https://gmgn.ai" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${O}28`,background:O+"0A",color:O,textDecoration:"none",fontSize:13,fontWeight:600}}>
+        <a href="https://gmgn.ai/sol/token/85TyF6eQynSz2QmB4sz15LxpwDP1S7FnJPd1mg1Cpump" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${O}28`,background:O+"0A",color:O,textDecoration:"none",fontSize:13,fontWeight:600}}>
           <CoinIcon/> Buy Coin
         </a>
         <button onClick={()=>{onAI();onClose()}} style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${GOLD}33`,background:`linear-gradient(135deg,${O}12,${GOLD}12)`,color:GOLD,fontSize:13,fontWeight:600,cursor:"pointer",textAlign:"left"}}>
@@ -591,7 +591,7 @@ export default function Consilio(){
             <a key={i} href={href} target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",justifyContent:"center",width:32,height:32,borderRadius:8,border:`1px solid ${BD}`,color:TM,textDecoration:"none",transition:"all 0.15s"}}
               onMouseEnter={e=>{e.currentTarget.style.borderColor=TD;e.currentTarget.style.color=T}} onMouseLeave={e=>{e.currentTarget.style.borderColor=BD;e.currentTarget.style.color=TM}}>{icon}</a>
           ))}
-          <a href="https://gmgn.ai" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:4,height:32,padding:"0 10px",borderRadius:8,background:O+"10",border:`1px solid ${O}28`,color:O,textDecoration:"none",fontSize:11,fontWeight:700}}><CoinIcon/>Buy</a>
+          <a href="https://gmgn.ai/sol/token/85TyF6eQynSz2QmB4sz15LxpwDP1S7FnJPd1mg1Cpump" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:4,height:32,padding:"0 10px",borderRadius:8,background:O+"10",border:`1px solid ${O}28`,color:O,textDecoration:"none",fontSize:11,fontWeight:700}}><CoinIcon/>Buy</a>
           <button onClick={()=>setAiOpen(true)} style={{display:"flex",alignItems:"center",gap:4,height:32,padding:"0 11px",borderRadius:8,border:`1px solid ${GOLD}33`,cursor:"pointer",fontSize:11,fontWeight:700,background:`linear-gradient(135deg,${O}15,${GOLD}15)`,color:GOLD,animation:"glow 3s infinite"}}><SparkIcon s={13}/>AI Agent</button>
           <button onClick={connectWallet} style={{display:"flex",alignItems:"center",gap:4,height:32,padding:"0 12px",borderRadius:8,border:"none",cursor:"pointer",fontSize:11,fontWeight:700,background:wallet?G+"15":`linear-gradient(135deg,${O},${OD})`,color:wallet?G:"#fff"}}><WalletIcon/>{wallet?`${wallet.slice(0,4)}..${wallet.slice(-4)}`:"Connect"}</button>
         </div>
@@ -654,7 +654,7 @@ export default function Consilio(){
       <footer className="footer-section" style={{borderTop:`1px solid ${BD}`,padding:"24px 20px",textAlign:"center"}}>
         <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:7,marginBottom:8}}><CrownLogo size={20}/><span style={{fontFamily:"'Space Mono',monospace",fontWeight:700,fontSize:12,color:O}}>CONSILIO</span></div>
         <p style={{color:TM,fontSize:10,maxWidth:360,margin:"0 auto"}}>AI-powered prediction markets. Data from Polymarket. Not financial advice.</p>
-        <div style={{display:"flex",justifyContent:"center",gap:12,marginTop:10}}>{[["Twitter","https://x.com/Consilioapp"],["GitHub","https://github.com/consilio-app"],["Buy Coin","https://gmgn.ai"]].map(([l,h])=><a key={l} href={h} target="_blank" rel="noopener noreferrer" style={{color:TM,fontSize:11,textDecoration:"none"}}>{l}</a>)}</div>
+        <div style={{display:"flex",justifyContent:"center",gap:12,marginTop:10}}>{[["Twitter","https://x.com/Consilioapp"],["GitHub","https://github.com/consilio-app"],["Buy Coin","https://gmgn.ai/sol/token/85TyF6eQynSz2QmB4sz15LxpwDP1S7FnJPd1mg1Cpump"]].map(([l,h])=><a key={l} href={h} target="_blank" rel="noopener noreferrer" style={{color:TM,fontSize:11,textDecoration:"none"}}>{l}</a>)}</div>
       </footer>
 
       {/* ─── PANELS ─── */}
