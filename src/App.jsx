@@ -499,10 +499,10 @@ const MobileDrawer=({open,onClose,wallet,onConnect,onAI})=>{
           <span style={{fontFamily:"'Space Mono',monospace",fontWeight:700,fontSize:14,color:O}}>Menu</span>
           <button onClick={onClose} style={{background:"none",border:"none",color:TD,cursor:"pointer",padding:4}}><CloseIcon/></button>
         </div>
-        <a href="https://x.com/Consiliofun" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${BD}`,color:TD,textDecoration:"none",fontSize:13,fontWeight:500}}>
+        <a href="https://x.com/Consilioapp" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${BD}`,color:TD,textDecoration:"none",fontSize:13,fontWeight:500}}>
           <XIcon/> Twitter / X
         </a>
-        <a href="https://github.com/consilio-cli" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${BD}`,color:TD,textDecoration:"none",fontSize:13,fontWeight:500}}>
+        <a href="https://github.com/consilio-app" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${BD}`,color:TD,textDecoration:"none",fontSize:13,fontWeight:500}}>
           <GHIcon/> GitHub
         </a>
         <a href="https://gmgn.ai" target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",gap:10,padding:"12px 14px",borderRadius:10,border:`1px solid ${O}28`,background:O+"0A",color:O,textDecoration:"none",fontSize:13,fontWeight:600}}>
