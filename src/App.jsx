@@ -587,7 +587,7 @@ export default function Consilio(){
 
         {/* Desktop nav */}
         <div className="nav-links-desktop" style={{display:"flex",alignItems:"center",gap:5}}>
-          {[["https://x.com/Consiliofun",<XIcon/>],["https://github.com/consilio-cli",<GHIcon/>]].map(([href,icon],i)=>(
+          {[["https://x.com/Consilioapp",<XIcon/>],["https://github.com/consilio-app",<GHIcon/>]].map(([href,icon],i)=>(
             <a key={i} href={href} target="_blank" rel="noopener noreferrer" style={{display:"flex",alignItems:"center",justifyContent:"center",width:32,height:32,borderRadius:8,border:`1px solid ${BD}`,color:TM,textDecoration:"none",transition:"all 0.15s"}}
               onMouseEnter={e=>{e.currentTarget.style.borderColor=TD;e.currentTarget.style.color=T}} onMouseLeave={e=>{e.currentTarget.style.borderColor=BD;e.currentTarget.style.color=TM}}>{icon}</a>
           ))}
@@ -654,7 +654,7 @@ export default function Consilio(){
       <footer className="footer-section" style={{borderTop:`1px solid ${BD}`,padding:"24px 20px",textAlign:"center"}}>
         <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:7,marginBottom:8}}><CrownLogo size={20}/><span style={{fontFamily:"'Space Mono',monospace",fontWeight:700,fontSize:12,color:O}}>CONSILIO</span></div>
         <p style={{color:TM,fontSize:10,maxWidth:360,margin:"0 auto"}}>AI-powered prediction markets. Data from Polymarket. Not financial advice.</p>
-        <div style={{display:"flex",justifyContent:"center",gap:12,marginTop:10}}>{[["Twitter","https://x.com/Consiliofun"],["GitHub","https://github.com/consilio-cli"],["Buy Coin","https://gmgn.ai"]].map(([l,h])=><a key={l} href={h} target="_blank" rel="noopener noreferrer" style={{color:TM,fontSize:11,textDecoration:"none"}}>{l}</a>)}</div>
+        <div style={{display:"flex",justifyContent:"center",gap:12,marginTop:10}}>{[["Twitter","https://x.com/Consilioapp"],["GitHub","https://github.com/consilio-app"],["Buy Coin","https://gmgn.ai"]].map(([l,h])=><a key={l} href={h} target="_blank" rel="noopener noreferrer" style={{color:TM,fontSize:11,textDecoration:"none"}}>{l}</a>)}</div>
       </footer>
 
       {/* ─── PANELS ─── */}
